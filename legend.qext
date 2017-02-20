@@ -1,0 +1,8 @@
+{
+	"name" : "legend_extension",
+	"description" : "Customizable legends",
+	"icon" : "text",
+	"type" : "visualization",
+	"version": "1.0",
+	"author": "Vikraant "
+}
