@@ -1,7 +1,7 @@
 define(
     [
         'jquery',
-        "css!./dynamic_legend.css"
+        "css!./legend.css"
     ],
     function($, cssContent) {
         'use strict';
