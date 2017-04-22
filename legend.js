@@ -232,7 +232,7 @@ define(
                 //console.log(document.getElementById(layout.qInfo.qId), layout.qHyperCube ) ;
                 var legend = '\
 					<div class="legend" id="' + layout.qInfo.qId + '">';
-                var columnWidth = '50';
+                var columnWidth = ($element.width()/4 )< 140 ? 140  : ($element.width()/4) ;
                 for (var i = 0; i < legendSpecs.measureName.length; i++) {
                     if (legendSpecs.visible[i]) {
                         let legendType = legendSpecs.type[i] ? 'box' : 'line';
